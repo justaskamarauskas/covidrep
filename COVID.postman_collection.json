@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "af7e0207-412c-4e0b-9c96-c1bf44f224b1",
+		"name": "COVID",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "General stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://corona-virus-stats.herokuapp.com/api/v1/cases/general-stats",
+					"protocol": "https",
+					"host": [
+						"corona-virus-stats",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"general-stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
